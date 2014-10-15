@@ -1,0 +1,73 @@
+
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #D1D1AC;
+  background-image: url('/img/upfeathers.png');
+}
+
+.navigation{
+  padding: 0.5em;
+  padding-left: 4em;
+  background-color: #00CCCC;
+  -webkit-box-shadow: inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow:    inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+  box-shadow:         inset 0px -4px 8px -3px rgba(0,0,0,0.75);
+}
+
+.title{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:  0.5em;
+  padding-bottom: 0.5em;
+  margin: auto;
+  width: 80%;
+}
+
+.title a{
+  color: #7A5C00;
+  text-decoration: none;
+}
+
+.main{
+  padding-top: 2em;
+  width: 70%;
+  margin: auto;
+}
+
+.contacts-div{
+  margin-left: 10px;
+  float: left;
+  width: 40%;
+  border: 1px solid;
+  background-color: #D1D1AC;
+}
+
+.left-forms{
+  float: left;
+  width: 45%;
+  border: 1px black solid;
+  background-color: #D1D1AC;
+}
+
+.js-contact-info{
+  padding: 0.3em;
+}
+
+.hover{
+  padding-top: -10px;
+  margin-left: 15px;
+  margin-top: -10px;
+  border: 1px black solid;
+  background-color: #D1D1AC;
+  width: 40%;
+}
+
+.mini-padding{
+  padding: 2em;
+}
+.rounded-input-ele input{
+  padding: 4px;
+  margin: 5px;
+  border-radius: 10px;
+}
