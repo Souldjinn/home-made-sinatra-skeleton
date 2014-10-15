@@ -31,8 +31,6 @@ function sendMessageListener(){
        url: "/contacts/send_message",
        data: $(this).serialize(),
        success: function(data) {
-        console.log(data)
-        console.log("success")
        }
     });
 
